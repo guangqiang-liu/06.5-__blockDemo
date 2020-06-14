@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9C1EF2ED23EAECBC00B528FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1EF2EC23EAECBC00B528FD /* main.m */; };
+		9C1EF2F623EB125200B528FD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1EF2F523EB125200B528FD /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,11 @@
 /* Begin PBXFileReference section */
 		9C1EF2E923EAECBC00B528FD /* 06.5-block中__block本质 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "06.5-block中__block本质"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C1EF2EC23EAECBC00B528FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C1EF2F323EAEF7000B528FD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9C1EF2F423EB125200B528FD /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		9C1EF2F523EB125200B528FD /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		9C1EF2F723EB137800B528FD /* main2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main2.cpp; sourceTree = "<group>"; };
+		9C1EF2F823EBDE5700B528FD /* main3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main3.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,11 @@
 			isa = PBXGroup;
 			children = (
 				9C1EF2EC23EAECBC00B528FD /* main.m */,
+				9C1EF2F323EAEF7000B528FD /* main.cpp */,
+				9C1EF2F723EB137800B528FD /* main2.cpp */,
+				9C1EF2F823EBDE5700B528FD /* main3.cpp */,
+				9C1EF2F423EB125200B528FD /* Person.h */,
+				9C1EF2F523EB125200B528FD /* Person.m */,
 			);
 			path = "06.5-block中__block本质";
 			sourceTree = "<group>";
@@ -119,6 +130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C1EF2F623EB125200B528FD /* Person.m in Sources */,
 				9C1EF2ED23EAECBC00B528FD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
